@@ -16,7 +16,7 @@ const AdminInterface = () => {
   const updateData = async () => {
     const express_url = "https://loan-manager-backend-d3wt.onrender.com";
     const jwtToken = Cookies.get("jwtToken");
-    const response = await fetch(`${express_url}/api/verifier/all-loans`, {
+    const response = await fetch(`${express_url}/api/admin/all-loans`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
