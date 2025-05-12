@@ -1,0 +1,41 @@
+.navbar-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 1px 1px #0A512F;
+}
+
+.logo{
+color: #0A512F;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-items-bg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-link{
+    margin-left: 10px;
+    font-family: "Roboto";
+    font-family: 18px;
+    font-weight: bold;
+    color: #0A512F;
+}
+.logobuttondiv{
+    display: flex;
+    align-items: center;
+    
+}

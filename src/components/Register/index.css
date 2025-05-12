@@ -1,0 +1,26 @@
+.main-card{
+    width: 600px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+.main-card-bg{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.logo{
+    font-family: "Roboto";
+    font-size: 28px;
+    color: #0A512F;
+    font-weight: bold;
+}
+.theme{
+    color: #0A512F;
+}
+.error{
+    color: red;
+}

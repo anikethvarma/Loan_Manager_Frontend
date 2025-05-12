@@ -1,0 +1,24 @@
+.interface-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.user-interface-nav-bg{
+    width: 600px;
+    max-width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.main-card{
+    margin: auto;
+}
+
+.table{
+    min-width: 600px;
+}
